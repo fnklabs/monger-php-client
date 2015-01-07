@@ -1,0 +1,28 @@
+{
+  "name": "fnklabs/monger",
+  "description": "Monger php client",
+  "minimum-stability": "stable",
+  "license": "Apache License 2",
+  "authors": [
+    {
+      "name": "Alisher Alimov",
+      "email": "alisher.alimov@fnklabs.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "FnkLabs\\Monger": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "monolog/monolog": "1.*"
+  },
+  "require-dev": {
+    "curl/curl": ">=1.2",
+    "phpunit/phpunit": "4.*"
+  },
+  "suggest": {
+    "curl/curl": ">=1.2"
+  }
+}
